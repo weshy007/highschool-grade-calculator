@@ -59,10 +59,10 @@ function getmarks() {
     else if (percentage > 30 && percentage < 49.99) {
         document.getElementById("pass").innerHTML = "You have to put more effort next time";
     }
-    else if ( percentage > 50 && percentage < 60) {
-    document.getElementById("pass").innerHTML = "You can do better! Keep pushing";
+    else if ( percentage > 50 && percentage < 74.99) {
+    document.getElementById("pass").innerHTML = "You have passed! Keep pushing";
     }
-    else {
+    else if ( percentage > 75){
         document.getElementById("pass").innerHTML = "Congratulations! you have passed with flying colors!";
     }
 
